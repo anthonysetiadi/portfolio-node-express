@@ -8,7 +8,7 @@
                 "technologies": ["HTML", "CSS", "JavaScript"],
                 "live_link": "https://anthonysetiadi.github.io/a-random-quote-generator/",
                 "github_link": "https://github.com/anthonysetiadi/a-random-quote-generator",
-                "image_urls": ["images/project-1-square-screenshot.png"]
+                "image_urls": ["/static/images/project-1-square-screenshot.png"]
             },
             {
                 "id": 1,
@@ -17,7 +17,7 @@
                 "technologies": ["HTML", "CSS", "JavaScript"],
                 "live_link": "https://anthonysetiadi.github.io/data-pagination-filtering/",
                 "github_link": "https://github.com/anthonysetiadi/data-pagination-filtering",
-                "image_urls": ["images/project-2-square-screenshot.png"]
+                "image_urls": ["/static/images/project-2-square-screenshot.png"]
             },
             {
                 "id": 2,
@@ -26,7 +26,7 @@
                 "technologies": ["HTML", "CSS", "JavaScript"],
                 "live_link": "https://anthonysetiadi.github.io/interactive-form-v3/",
                 "github_link": "https://github.com/anthonysetiadi/interactive-form-v3",
-                "image_urls": ["images/project-3-square-screenshot.png"]
+                "image_urls": ["/static/images/project-3-square-screenshot.png"]
             },
             {
                 "id": 3,
@@ -35,7 +35,7 @@
                 "technologies": ["HTML", "CSS", "JavaScript"],
                 "live_link": "https://anthonysetiadi.github.io/oop-game-v2/",
                 "github_link": "https://github.com/anthonysetiadi/oop-game-v2",
-                "image_urls": ["images/project-4-square-screenshot.png"]
+                "image_urls": ["/static/images/project-4-square-screenshot.png"]
             },
             {
                 "id": 4,
@@ -44,7 +44,7 @@
                 "technologies": ["HTML", "CSS", "JavaScript"],
                 "live_link": "https://anthonysetiadi.github.io/public-api-requests/",
                 "github_link": "https://github.com/anthonysetiadi/public-api-requests",
-                "image_urls": ["images/project-5-square-screenshot.png"]
+                "image_urls": ["/static/images/project-5-square-screenshot.png"]
             }
         ]
         

@@ -17,3 +17,4 @@ Using Node.js and the Express framework, this project showcases all of my previo
 - Sidebar colors changed
 - Font changed
 - Logo added
+- Animation added to all H1 Headers

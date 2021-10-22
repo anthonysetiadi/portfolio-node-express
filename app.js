@@ -23,24 +23,49 @@ app.get('/about', (req, res, next) => {
 app.get('/projects/:id', (req, res, next) => {
     const id = req.params.id;
     const project = projects[id]
-    res.render('project', {project})
-});
 
-// Not found (404) Error Handler
-app.use((req, res, next) => {
-    const err = new Error('Not Found');
-    err.status = 404;
-    next(err);
-});
-
-// Other Errors Handler
-app.use((err, req, res, next) => {
-    res.locals.error = err;
-    res.status(err.status);
-    if(err.status === 404) {
-        res.render('page-not-found', {message: err.message, error: err})
+    if (projects[id]) {
+        res.render('project', {project})
     } else {
-        res.render('error', {message: err.message, error: err});
+        const err = new Error();
+        err.status = 404;
+        err.message = `Looks like the project doesn't exist.`
+        next(err);
+    }
+});
+
+app.get('/error', (req, res, next) => {
+    console.log('Custom error route called');
+    const err = new Error();
+    err.message = `Custom 500 error thrown`
+    err.status = 500;
+    throw err;
+});
+
+/* Not found (404) Error Handler */
+app.use((req, res, next) => {
+    console.log('404 error handler called')
+    const err = new Error()
+    res.status(404);
+    err.message = `This page does not exist`
+    err.status = 404 
+    res.render('page-not-found', {err})
+});
+
+/* Global error handler */
+app.use((err, req, res, next) => {    
+    if (err) {
+        console.log('Global error handler called', err)
+    }
+    
+    if(err.status === 404) {
+        err.message = `This page does not exist`
+        err.status = 404 
+        res.render('page-not-found', {err})
+    } else {
+        err.message = err.message || `Looks like something went wrong on the server`
+        err.status = 500
+        res.render('error', {err});
     }
 });
 

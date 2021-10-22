@@ -3,48 +3,71 @@
         [
             {
                 "id": 0,
-                "project_name": "a-random-quote-generator",
-                "description": "A random quote generator that refreshes a random quote every 5 seconds.",
-                "technologies": ["HTML", "CSS", "JavaScript"],
+                "project_name": "A Random Quote Generator",
+                "description": "Generates random quotes that refresh every 5 seconds. Includes styling and color changes as well.",
+                "technologies": ["HTML", "CSS", "Vanilla JavaScript"],
                 "live_link": "https://anthonysetiadi.github.io/a-random-quote-generator/",
                 "github_link": "https://github.com/anthonysetiadi/a-random-quote-generator",
-                "image_urls": ["/static/images/project-1-square-screenshot.png"]
+                "image_urls": [
+                    "/static/images/project-1-square-screenshot.png",
+                    "/static/images/project-1-landscape-screenshot1.png",
+                    "/static/images/project-1-landscape-screenshot2.png"
+                ]
             },
             {
                 "id": 1,
-                "project_name": "data-pagination-filtering",
+                "project_name": "Data Pagination and Filtering",
                 "description": "A student directory showcasing data pagination and filtering using a searchbar.",
-                "technologies": ["HTML", "CSS", "JavaScript"],
+                "technologies": ["HTML", "CSS", "Vanilla JavaScript"],
                 "live_link": "https://anthonysetiadi.github.io/data-pagination-filtering/",
                 "github_link": "https://github.com/anthonysetiadi/data-pagination-filtering",
-                "image_urls": ["/static/images/project-2-square-screenshot.png"]
+                "image_urls": [
+                    "/static/images/project-2-square-screenshot.png",
+                    "/static/images/project-2-landscape-screenshot1.png",
+                    "/static/images/project-2-landscape-screenshot2.png",
+                    "/static/images/project-2-landscape-screenshot3.png"
+                ]
             },
             {
                 "id": 2,
-                "project_name": "interactive-form-v3",
-                "description": "An interactive form for a mock Full Stack Developer's Conference.",
-                "technologies": ["HTML", "CSS", "JavaScript"],
+                "project_name": "Interactive Form",
+                "description": "An form for a mock Full Stack Developer's Conference with full interactivity. Includes dynamically selecting different menus based on previous selections and regex for form validation.",
+                "technologies": ["HTML", "CSS", "Vanilla JavaScript"],
                 "live_link": "https://anthonysetiadi.github.io/interactive-form-v3/",
                 "github_link": "https://github.com/anthonysetiadi/interactive-form-v3",
-                "image_urls": ["/static/images/project-3-square-screenshot.png"]
+                "image_urls": [
+                    "/static/images/project-3-square-screenshot.png",
+                    "/static/images/project-3-landscape-screenshot1.png",
+                    "/static/images/project-3-landscape-screenshot2.png",
+                    "/static/images/project-3-landscape-screenshot3.png"
+                ]
             },
             {
                 "id": 3,
-                "project_name": "oop-game-v2",
+                "project_name": "Phrase Hunter Game",
                 "description": "Phrase Hunter Game showcasing Object Oriented Programming",
-                "technologies": ["HTML", "CSS", "JavaScript"],
+                "technologies": ["HTML", "CSS", "Vanilla JavaScript"],
                 "live_link": "https://anthonysetiadi.github.io/oop-game-v2/",
                 "github_link": "https://github.com/anthonysetiadi/oop-game-v2",
-                "image_urls": ["/static/images/project-4-square-screenshot.png"]
+                "image_urls": [
+                    "/static/images/project-4-square-screenshot.png",
+                    "/static/images/project-4-landscape-screenshot1.png",
+                    "/static/images/project-4-landscape-screenshot2.png",
+                    "/static/images/project-4-landscape-screenshot3.png"
+                ]
             },
             {
                 "id": 4,
-                "project_name": "public-api-requests",
-                "description": "A startup directory showcasing the use of a public API request using the Random User Generator API",
-                "technologies": ["HTML", "CSS", "JavaScript"],
+                "project_name": "Startup Directory using a public API",
+                "description": "Using the Random User Generator API, this project creates a mock startup directory with dynamically inserted HTML from JavaScript.",
+                "technologies": ["HTML", "CSS", "Vanilla JavaScript"],
                 "live_link": "https://anthonysetiadi.github.io/public-api-requests/",
                 "github_link": "https://github.com/anthonysetiadi/public-api-requests",
-                "image_urls": ["/static/images/project-5-square-screenshot.png"]
+                "image_urls": [
+                    "/static/images/project-5-square-screenshot.png",
+                    "/static/images/project-5-landscape-screenshot1.png",
+                    "/static/images/project-5-landscape-screenshot2.png"
+                ]
             }
         ]
         

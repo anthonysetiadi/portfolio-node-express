@@ -19,7 +19,7 @@ app.get('/about', (req, res, next) => {
     res.render('about');
 });
 
-// Dynamic porject routes
+// Dynamic project routes
 app.get('/projects/:id', (req, res, next) => {
     const id = req.params.id;
     const project = projects[id]

@@ -34,6 +34,7 @@ app.get('/projects/:id', (req, res, next) => {
     }
 });
 
+// Custom error test for 500 error
 app.get('/error', (req, res, next) => {
     console.log('Custom error route called');
     const err = new Error();
